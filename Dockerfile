@@ -1,30 +1,23 @@
-# Usa una imagen ligera de Node.js
+# Usar una imagen base de Node.js
 FROM node:18-alpine
 
-# Crea y usa el directorio de trabajo
+# Establecer el directorio de trabajo
 WORKDIR /app
 
-# Copia solo los archivos esenciales para instalar dependencias
+# Copiar los archivos de configuración de dependencias
 COPY package.json package-lock.json ./
 
-# Asegurar instalación completa y limpiar caché de Next.js
-RUN npm install --force && npm cache clean --force
+# Instalar dependencias
+RUN npm install --force
 
-# Copia el resto del código
+# Copiar el resto de los archivos de la aplicación
 COPY . .
 
-# Configura la variable para evitar consumo excesivo de memoria
-ENV NODE_OPTIONS="--max-old-space-size=256"
-
-# Verifica que todas las dependencias están disponibles
-RUN ls -la node_modules | grep tailwindcss || (echo "Tailwind no encontrado" && exit 1)
-
-# Corre `next build`
+# Construir la aplicación
 RUN npm run build
 
-# Expone el puerto en el que Next.js corre
+# Exponer el puerto en el que la aplicación se ejecutará
 EXPOSE 3000
 
-# Comando de inicio
-CMD ["npm", "start", "-p", "3000"]
-
+# Comando para ejecutar la aplicación
+CMD ["npm", "start"]
