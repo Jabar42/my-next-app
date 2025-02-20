@@ -7,8 +7,8 @@ WORKDIR /app
 # Copia solo los archivos esenciales para instalar dependencias
 COPY package.json package-lock.json ./
 
-# Instala todas las dependencias, incluyendo devDependencies
-RUN npm install --legacy-peer-deps
+# Asegurar instalación completa y limpiar caché de Next.js
+RUN npm install --force && npm cache clean --force
 
 # Copia el resto del código
 COPY . .
@@ -16,11 +16,15 @@ COPY . .
 # Configura la variable para evitar consumo excesivo de memoria
 ENV NODE_OPTIONS="--max-old-space-size=256"
 
-# Corre `next build` manualmente en vez de dejar que Railway lo haga antes de instalar
+# Verifica que todas las dependencias están disponibles
+RUN ls -la node_modules | grep tailwindcss || (echo "Tailwind no encontrado" && exit 1)
+
+# Corre `next build`
 RUN npm run build
 
-# Expone el puerto en el que Next.js corre (Railway usa una variable de entorno)
+# Expone el puerto en el que Next.js corre
 EXPOSE 3000
 
 # Comando de inicio
 CMD ["npm", "start", "-p", "3000"]
+
