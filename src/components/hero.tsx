@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Hero() {
     return (
-        <section className=" relative text-gray-400">
+        <section className=" relative">
             {/* Contenedor de la imagen de fondo */}
             <div className="absolute inset-0 -z-10">
                 <Image 

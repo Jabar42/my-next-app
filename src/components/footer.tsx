@@ -3,11 +3,11 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-50 font-light pt-12 text-gray-500">
+    <footer className="bg-gray-50 font-light pt-12">
       <div className="container mx-auto px-4 relative">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full p-4 xl:mr-auto xl:w-4/12">
-            <Link href="/#" passHref className="font-medium hover:text-blue-800 inline-block mb-6 mr-auto text-3xl text-blue-600 uppercase">
+            <Link href="/" passHref className=" inline-block mb-6 mr-auto ">
                 <Image src="/logo.png" alt="Logo" width={85} height={55} />
             </Link>
             <p className=" mb-4 text-sm">Duis pharetra venenatis felis, ut tincidunt ipsum consequat nec. Fusce et porttitor libero, eu aliquam nisi. Nam finibus ullamcorper semper.</p>
