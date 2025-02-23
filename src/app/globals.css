@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 :root {
+  --color-primary: #52185b;
+  --color-secondary: #779b05;
+  --color-terciary: #f7941e;
+}
+
+:root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -17,6 +23,19 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --font-poppins: 'Poppins', sans-serif;
+  --font-proza: 'Proza Libre', serif;
+}
+
+body {
+  font-family: var(--font-poppins); /* Usa Poppins por defecto */
+}
+
+h1, h2, h3 {
+  font-family: var(--font-proza); /* Usa Proza Libre en encabezados */
+  color: var(--color-primary);
 }
 

@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-4 shadow-md mb-8">
+    <header className="bg-gradient-to-r from-blue-500 to-purple-600 text-white">
       <div className="container mx-auto flex justify-between items-center px-4">
         <h1 className="text-3xl font-extrabold">Mi Sitio</h1>
         <nav>

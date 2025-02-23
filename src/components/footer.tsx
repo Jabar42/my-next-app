@@ -1,14 +1,19 @@
+import Link from "next/link";
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer className="bg-gray-50 font-light pt-12 text-gray-500">
       <div className="container mx-auto px-4 relative">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full p-4 xl:mr-auto xl:w-4/12">
-            <a href="#" className="font-medium hover:text-blue-800 inline-block mb-6 mr-auto text-3xl text-blue-600 uppercase"><h1>Company</h1></a>
-            <p className="mb-4 text-sm">Duis pharetra venenatis felis, ut tincidunt ipsum consequat nec. Fusce et porttitor libero, eu aliquam nisi. Nam finibus ullamcorper semper.</p>
+            <Link href="/#" passHref className="font-medium hover:text-blue-800 inline-block mb-6 mr-auto text-3xl text-blue-600 uppercase">
+                <Image src="/logo.png" alt="Logo" width={85} height={55} />
+            </Link>
+            <p className=" mb-4 text-sm">Duis pharetra venenatis felis, ut tincidunt ipsum consequat nec. Fusce et porttitor libero, eu aliquam nisi. Nam finibus ullamcorper semper.</p>
             <div className="mb-6">
-              <a href="#" className="hover:text-blue-600">+1 234 567-890</a> <br />
-              <a href="#" className="hover:text-blue-600">hello@fantico.com</a>
+              <a href="#" className="hover:text-blue-600">+57 234 567-890</a> <br />
+              <a href="#" className="hover:text-blue-600">info@varsana.com</a>
             </div>
             <div className="flex-wrap inline-flex space-x-3">
               <a href="#" className="hover:text-blue-600" aria-label="facebook">
@@ -39,38 +44,38 @@ export default function Footer() {
             </div>
           </div>
           <div className="w-full p-4 xl:w-2/12 sm:w-4/12">
-            <h2 className="font-bold mb-8 text-blue-600 text-lg uppercase">About</h2>
+            <h2 className="font-bold mb-8 text-lg uppercase">Acerca</h2>
             <ul>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Get Quote</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Enterprise Plan</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Become an Affiliate</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Our Portfolio</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">Nosotros</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">Instructores</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">Voluntariado</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">Vision</a></li>
             </ul>
           </div>
           <div className="w-full p-4 xl:w-2/12 sm:w-4/12">
-            <h2 className="font-bold mb-8 text-blue-600 text-lg uppercase">Services</h2>
+            <h2 className="font-bold mb-8 text-lg uppercase">Servicios</h2>
             <ul>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Web Design</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Web Development</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">WordPress</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Digital Marketing</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Content Writing</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">Eventos</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">Pasadias</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">Hospedaje</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">Alquilier para grupos</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">Temazcales</a></li>
             </ul>
           </div>
           <div className="w-full p-4 xl:w-2/12 sm:w-4/12">
-            <h2 className="font-bold mb-8 text-blue-600 text-lg uppercase">Other</h2>
+            <h2 className="font-bold mb-8 text-lg uppercase">Otros</h2>
             <ul>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Business Stories</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Learning</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Licence</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Refund Policy</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Terms of Service</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">Galeria</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">Filosofia</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">Blog</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">Podcast</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">Ashram Life</a></li>
             </ul>
           </div>
         </div>
         <div className="py-4 text-center">
           <hr className="border-gray-400 mb-4" />
-          <p className="text-sm">Copyright &copy; 2020 Company Name</p>
+          <p className="text-sm">Copyright &copy; 2025 Varsana</p>
         </div>
       </div>
     </footer>

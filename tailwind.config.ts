@@ -9,6 +9,11 @@ export default {
   theme: {
     extend: {
 
+      fontFamily: {
+        poppins: 'var(--font-poppins)',
+        proza: 'var(--font-proza)',
+      },
+
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
