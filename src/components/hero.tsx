@@ -3,7 +3,7 @@ import VirtualTourButton from './virtualtourbutton';
 
 export default function Hero() {
     return (
-        <section className=" relative">
+        <section className=" relative py-20">
             {/* Contenedor de la imagen de fondo */}
             <div className="absolute inset-0 -z-10">
                 <Image 
@@ -29,12 +29,7 @@ export default function Hero() {
                             Más que una ecoaldea, es un espacio donde la meditación, el yoga y la sostenibilidad se fusionan 
                             para brindarte experiencias profundas y transformadoras.
                         </p>
-                        <div className="flex">
-                            <a href="/contacto" className="bg-[--color-secondary] font-light hover:bg-green-700 inline-block px-5 py-2 rounded-sm text-white uppercase">
-                                Contáctanos
-                            </a>
-                            <VirtualTourButton />
-                        </div>
+                        <VirtualTourButton />
                     </div>
                 </div>
             </div>
