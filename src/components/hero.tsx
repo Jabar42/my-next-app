@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import VirtualTourButton from './virtualtourbutton';
 
 export default function Hero() {
     return (
@@ -28,9 +29,12 @@ export default function Hero() {
                             Más que una ecoaldea, es un espacio donde la meditación, el yoga y la sostenibilidad se fusionan 
                             para brindarte experiencias profundas y transformadoras.
                         </p>
-                        <a href="/contacto" className="bg-[--color-secondary] font-light hover:bg-green-700 inline-block px-5 py-2 rounded-sm text-white uppercase">
-                            Contáctanos
-                        </a>
+                        <div className="flex">
+                            <a href="/contacto" className="bg-[--color-secondary] font-light hover:bg-green-700 inline-block px-5 py-2 rounded-sm text-white uppercase">
+                                Contáctanos
+                            </a>
+                            <VirtualTourButton />
+                        </div>
                     </div>
                 </div>
             </div>
