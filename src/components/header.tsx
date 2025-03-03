@@ -1,6 +1,8 @@
 import Link from "next/link"
 import { MyNav } from "./myNav"
 import Image from "next/image"
+import { MobileNav } from "./mobile-nav"
+
 export function Header() {
   return (
     <header className="flex items-center justify-between px-6 py-4 border-b">
@@ -13,7 +15,10 @@ export function Header() {
           priority
         />
       </Link>
-      <MyNav />
+      <div className="hidden md:block">
+        <MyNav />
+      </div>
+      <MobileNav />
     </header>
   )
 }
