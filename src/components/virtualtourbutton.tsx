@@ -6,7 +6,7 @@ const VirtualTourButton = () => {
       <a href="/contacto" className="bg-[--color-secondary] font-light hover:bg-green-700 inline-block px-5 py-3 rounded-sm text-white uppercase items-center justify-center">
         Contáctanos
       </a>
-      <a href="/virtual-tour" className="bg-[--color-secondary] font-light hover:bg-green-700 inline-block px-5 py-3 rounded-sm text-white uppercase flex items-center justify-center">
+      <a href="/virtual-tour" className="bg-[--color-secondary] font-light hover:bg-green-700 inline-block px-5 py-3 rounded-sm text-white uppercase  items-center justify-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 512 512"
