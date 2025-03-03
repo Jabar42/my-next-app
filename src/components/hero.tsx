@@ -22,7 +22,7 @@ export default function Hero() {
                         <p className="font-medium mb-2 text-[--color-terciary] italic">
                             Primer Yoga Planetario de Colombia.
                         </p>
-                        <h1 className="mb-4 text-6xl">
+                        <h1 className="mb-4 text-4xl md:text-6xl">
                             Un espacio para reconectar contigo y con la naturaleza.
                         </h1>
                         <p className="font-light mb-6 text-xl">
