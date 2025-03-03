@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import VirtualTourButton from './virtualtourbutton';
+import { Button } from './ui/button';
 
 export default function Hero() {
     return (
@@ -30,6 +31,7 @@ export default function Hero() {
                             para brindarte experiencias profundas y transformadoras.
                         </p>
                         <VirtualTourButton />
+                        <Button>Conoce más</Button>
                     </div>
                 </div>
             </div>
