@@ -6,6 +6,7 @@ export default function Hero() {
         <section className=" relative py-20">
             {/* Contenedor de la imagen de fondo */}
             <div className="absolute inset-0 -z-10">
+                <div className="md:hidden absolute inset-0 bg-white/80 z-10"></div>
                 <Image 
                     src="/Banner2.webp" 
                     alt="Banner de Varsana Ecoaldea" 
