@@ -11,6 +11,7 @@ export default function Home() {
       <Hero/>
       <Services/>
       <VideoSection/>
+      //hola
       <Footer/>
     </div>
   );
