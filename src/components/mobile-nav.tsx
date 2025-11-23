@@ -1,6 +1,6 @@
 'use client';
 
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet"
 import { Menu } from "lucide-react"
 import { Link } from "@/i18n/routing"
 import { useTranslations } from 'next-intl'
@@ -14,6 +14,7 @@ export function MobileNav() {
         <Menu className="h-6 w-6" />
       </SheetTrigger>
       <SheetContent side="right">
+        <SheetTitle className="sr-only">{t('inicio')}</SheetTitle>
         <nav className="flex flex-col gap-4">
           <Link href="/" className="font-medium">
             {t('inicio')}
