@@ -13,7 +13,12 @@
   "hero": {
     "subtitle": "Primeiro Yoga Planetário da Colômbia.",
     "title": "Um espaço para se reconectar com você mesmo e com a natureza.",
-    "description": "Visite-nos como {guest}, {volunteer} ou em uma {dayTrip} e descubra Varsana, um santuário para a alma. Mais que uma ecoaldeia, é um espaço onde meditação, yoga e sustentabilidade se fundem para proporcionar experiências profundas e transformadoras.",
+    "descriptionPart1": "Visite-nos como",
+    "guest": "hóspede",
+    "volunteer": "voluntário",
+    "descriptionPart2": "ou em uma",
+    "dayTrip": "passeio de um dia",
+    "descriptionPart3": "e descubra Varsana, um santuário para a alma. Mais que uma ecoaldeia, é um espaço onde meditação, yoga e sustentabilidade se fundem para proporcionar experiências profundas e transformadoras.",
     "contactButton": "Entre em contato",
     "virtualTour": "Tour Virtual",
     "bannerAlt": "Banner da Ecoaldeia Varsana"

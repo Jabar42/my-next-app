@@ -13,7 +13,12 @@
   "hero": {
     "subtitle": "Kolumbiens erstes planetarisches Yoga.",
     "title": "Ein Raum, um sich mit dir selbst und mit der Natur zu verbinden.",
-    "description": "Besuchen Sie uns als {guest}, {volunteer} oder für einen {dayTrip} und entdecken Sie Varsana, ein Heiligtum für die Seele. Mehr als ein Ökodorf, es ist ein Raum, in dem Meditation, Yoga und Nachhaltigkeit verschmelzen, um Ihnen tiefe und transformative Erfahrungen zu bieten.",
+    "descriptionPart1": "Besuchen Sie uns als",
+    "guest": "Gast",
+    "volunteer": "Freiwilliger",
+    "descriptionPart2": "oder für einen",
+    "dayTrip": "Tagesausflug",
+    "descriptionPart3": "und entdecken Sie Varsana, ein Heiligtum für die Seele. Mehr als ein Ökodorf, es ist ein Raum, in dem Meditation, Yoga und Nachhaltigkeit verschmelzen, um Ihnen tiefe und transformative Erfahrungen zu bieten.",
     "contactButton": "Kontaktieren Sie uns",
     "virtualTour": "Virtuelle Tour",
     "bannerAlt": "Varsana Ökodorf Banner"

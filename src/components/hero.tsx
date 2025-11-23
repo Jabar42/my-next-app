@@ -32,23 +32,19 @@ export default function Hero() {
                             {t('title')}
                         </h1>
                         <p className="font-light mb-6 text-xl">
-                            {t.rich('description', {
-                                guest: (chunks) => (
-                                    <Link href="/hospedaje" className="font-bold text-[--color-primary] underline hover:text-[--color-secondary]">
-                                        {chunks}
-                                    </Link>
-                                ),
-                                volunteer: (chunks) => (
-                                    <Link href="/voluntariado" className="font-bold text-[--color-primary] underline hover:text-[--color-secondary]">
-                                        {chunks}
-                                    </Link>
-                                ),
-                                dayTrip: (chunks) => (
-                                    <Link href="/pasadia" className="font-bold text-[--color-primary] underline hover:text-[--color-secondary]">
-                                        {chunks}
-                                    </Link>
-                                ),
-                            })}
+                            {t('descriptionPart1')}{' '}
+                            <Link href="/hospedaje" className="font-bold text-[--color-primary] underline hover:text-[--color-secondary]">
+                                {t('guest')}
+                            </Link>
+                            {', '}
+                            <Link href="/voluntariado" className="font-bold text-[--color-primary] underline hover:text-[--color-secondary]">
+                                {t('volunteer')}
+                            </Link>
+                            {' '}{t('descriptionPart2')}{' '}
+                            <Link href="/pasadia" className="font-bold text-[--color-primary] underline hover:text-[--color-secondary]">
+                                {t('dayTrip')}
+                            </Link>
+                            {' '}{t('descriptionPart3')}
                         </p>
                         
                         <div className='flex gap-4'>

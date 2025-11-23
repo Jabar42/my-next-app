@@ -13,7 +13,12 @@
   "hero": {
     "subtitle": "Colombia's First Planetary Yoga.",
     "title": "A space to reconnect with yourself and with nature.",
-    "description": "Visit us as a {guest}, {volunteer} or for a {dayTrip} and discover Varsana, a sanctuary for the soul. More than an ecovillage, it is a space where meditation, yoga and sustainability merge to provide you with deep and transformative experiences.",
+    "descriptionPart1": "Visit us as a",
+    "guest": "guest",
+    "volunteer": "volunteer",
+    "descriptionPart2": "or for a",
+    "dayTrip": "day trip",
+    "descriptionPart3": "and discover Varsana, a sanctuary for the soul. More than an ecovillage, it is a space where meditation, yoga and sustainability merge to provide you with deep and transformative experiences.",
     "contactButton": "Contact Us",
     "virtualTour": "Virtual Tour",
     "bannerAlt": "Varsana Ecovillage Banner"
