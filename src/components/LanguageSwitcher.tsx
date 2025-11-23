@@ -3,7 +3,6 @@
 import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/routing';
 import { Globe } from 'lucide-react';
-import { Button } from './ui/button';
 import {
   NavigationMenu,
   NavigationMenuContent,
