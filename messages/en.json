@@ -1,0 +1,69 @@
+{
+  "common": {
+    "logoAlt": "Varsana Logo"
+  },
+  "nav": {
+    "gettingStarted": "Getting started",
+    "components": "Components",
+    "documentation": "Documentation",
+    "nosotros": "About Us",
+    "eventos": "Events",
+    "inicio": "Home"
+  },
+  "hero": {
+    "subtitle": "Colombia's First Planetary Yoga.",
+    "title": "A space to reconnect with yourself and with nature.",
+    "description": "Visit us as a {guest}, {volunteer} or for a {dayTrip} and discover Varsana, a sanctuary for the soul. More than an ecovillage, it is a space where meditation, yoga and sustainability merge to provide you with deep and transformative experiences.",
+    "contactButton": "Contact Us",
+    "virtualTour": "Virtual Tour",
+    "bannerAlt": "Varsana Ecovillage Banner"
+  },
+  "services": {
+    "title": "Visit our ecological gardens",
+    "gardenAlt": "Varsana ecological gardens",
+    "voluntariado": {
+      "title": "Volunteering",
+      "description": "Ideal for those who want to experience the life of an Ecovillage and learn about an ancestral culture."
+    },
+    "pasadías": {
+      "title": "Day Trips",
+      "description": "We have created a special day for you, full of wellness, healing, relaxation, awareness and connection with nature."
+    },
+    "hospedaje": {
+      "title": "Accommodation",
+      "description": "We have comfortable facilities, individual or group, ideal for rest."
+    },
+    "eventos": {
+      "title": "Events",
+      "description": "Ideal for those who want to experience the life of an Ecovillage and learn about an ancestral culture."
+    }
+  },
+  "video": {
+    "title": "Are you interested in any of our programs?",
+    "description": "We are at your service! Contact us to receive more detailed information about everything that Varsana ecovillage has to offer you. We will be happy to answer all your questions.",
+    "contactButton": "Contact Us",
+    "videoTitle": "Varsana Eco Village Video"
+  },
+  "footer": {
+    "description": "Duis pharetra venenatis felis, ut tincidunt ipsum consequat nec. Fusce et porttitor libero, eu aliquam nisi. Nam finibus ullamcorper semper.",
+    "acerca": "About",
+    "nosotros": "About Us",
+    "instructores": "Instructors",
+    "voluntariado": "Volunteering",
+    "vision": "Vision",
+    "servicios": "Services",
+    "eventos": "Events",
+    "pasadias": "Day Trips",
+    "hospedaje": "Accommodation",
+    "alquilerGrupos": "Group Rental",
+    "temazcales": "Temazcals",
+    "otros": "Others",
+    "galeria": "Gallery",
+    "filosofia": "Philosophy",
+    "blog": "Blog",
+    "podcast": "Podcast",
+    "ashramLife": "Ashram Life",
+    "copyright": "Copyright © 2025 Varsana"
+  }
+}
+

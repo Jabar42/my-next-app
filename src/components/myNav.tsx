@@ -1,5 +1,8 @@
+'use client';
+
 import * as React from "react"
-import Link from "next/link"
+import { Link } from "@/i18n/routing"
+import { useTranslations } from 'next-intl';
 import { cn } from "@/lib/utils"
 import {
   NavigationMenu,
@@ -50,11 +53,13 @@ const components: { title: string; href: string; description: string }[] = [
   ]
    
   export function MyNav() {
+    const t = useTranslations('nav');
+    
     return (
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
-            <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
+            <NavigationMenuTrigger>{t('gettingStarted')}</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                 <li className="row-span-3">
@@ -86,7 +91,7 @@ const components: { title: string; href: string; description: string }[] = [
             </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <NavigationMenuTrigger>Components</NavigationMenuTrigger>
+            <NavigationMenuTrigger>{t('components')}</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
                 {components.map((component) => (
@@ -104,21 +109,21 @@ const components: { title: string; href: string; description: string }[] = [
           <NavigationMenuItem>
             <Link href="/docs" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Documentation
+                {t('documentation')}
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
             <Link href="/nosotros" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Nosotros
+                {t('nosotros')}
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
             <Link href="/eventos" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Eventos
+                {t('eventos')}
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>

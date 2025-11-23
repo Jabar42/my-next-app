@@ -1,0 +1,69 @@
+{
+  "common": {
+    "logoAlt": "Logo da Varsana"
+  },
+  "nav": {
+    "gettingStarted": "Começar",
+    "components": "Componentes",
+    "documentation": "Documentação",
+    "nosotros": "Sobre nós",
+    "eventos": "Eventos",
+    "inicio": "Início"
+  },
+  "hero": {
+    "subtitle": "Primeiro Yoga Planetário da Colômbia.",
+    "title": "Um espaço para se reconectar com você mesmo e com a natureza.",
+    "description": "Visite-nos como {guest}, {volunteer} ou em uma {dayTrip} e descubra Varsana, um santuário para a alma. Mais que uma ecoaldeia, é um espaço onde meditação, yoga e sustentabilidade se fundem para proporcionar experiências profundas e transformadoras.",
+    "contactButton": "Entre em contato",
+    "virtualTour": "Tour Virtual",
+    "bannerAlt": "Banner da Ecoaldeia Varsana"
+  },
+  "services": {
+    "title": "Visite nossos jardins ecológicos",
+    "gardenAlt": "Jardins ecológicos da Varsana",
+    "voluntariado": {
+      "title": "Voluntariado",
+      "description": "Ideal para aqueles que querem experimentar a vida de uma Ecoaldeia e conhecer uma cultura ancestral."
+    },
+    "pasadías": {
+      "title": "Passeios de um dia",
+      "description": "Criamos um dia especial para você, cheio de bem-estar, cura, relaxamento, consciência e conexão com a natureza."
+    },
+    "hospedaje": {
+      "title": "Hospedagem",
+      "description": "Temos instalações confortáveis, individuais ou em grupo, ideais para descanso."
+    },
+    "eventos": {
+      "title": "Eventos",
+      "description": "Ideal para aqueles que querem experimentar a vida de uma Ecoaldeia e conhecer uma cultura ancestral."
+    }
+  },
+  "video": {
+    "title": "Você está interessado em algum de nossos programas?",
+    "description": "Estamos à sua disposição! Entre em contato conosco para receber informações mais detalhadas sobre tudo o que a ecoaldeia Varsana tem para oferecer. Teremos prazer em responder a todas as suas dúvidas.",
+    "contactButton": "Entre em contato",
+    "videoTitle": "Vídeo da Ecoaldeia Varsana"
+  },
+  "footer": {
+    "description": "Duis pharetra venenatis felis, ut tincidunt ipsum consequat nec. Fusce et porttitor libero, eu aliquam nisi. Nam finibus ullamcorper semper.",
+    "acerca": "Sobre",
+    "nosotros": "Sobre nós",
+    "instructores": "Instrutores",
+    "voluntariado": "Voluntariado",
+    "vision": "Visão",
+    "servicios": "Serviços",
+    "eventos": "Eventos",
+    "pasadias": "Passeios de um dia",
+    "hospedaje": "Hospedagem",
+    "alquilerGrupos": "Aluguel para grupos",
+    "temazcales": "Temazcals",
+    "otros": "Outros",
+    "galeria": "Galeria",
+    "filosofia": "Filosofia",
+    "blog": "Blog",
+    "podcast": "Podcast",
+    "ashramLife": "Vida no Ashram",
+    "copyright": "Copyright © 2025 Varsana"
+  }
+}
+

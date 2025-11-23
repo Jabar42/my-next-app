@@ -1,16 +1,21 @@
-import Link from "next/link";
+'use client';
+
+import { Link } from '@/i18n/routing';
 import Image from "next/image";
+import { useTranslations } from 'next-intl';
 
 export default function Footer() {
+  const t = useTranslations('footer');
+  
   return (
     <footer className="bg-gray-50 font-light pt-12">
       <div className="container mx-auto px-4 relative">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full p-4 xl:mr-auto xl:w-4/12">
-            <Link href="/" passHref className=" inline-block mb-6 mr-auto ">
+            <Link href="/" className=" inline-block mb-6 mr-auto ">
                 <Image src="/logo.png" alt="Logo" width={85} height={55} />
             </Link>
-            <p className=" mb-4 text-sm">Duis pharetra venenatis felis, ut tincidunt ipsum consequat nec. Fusce et porttitor libero, eu aliquam nisi. Nam finibus ullamcorper semper.</p>
+            <p className=" mb-4 text-sm">{t('description')}</p>
             <div className="mb-6">
               <a href="#" className="hover:text-blue-600">+57 234 567-890</a> <br />
               <a href="#" className="hover:text-blue-600">info@varsana.com</a>
@@ -44,38 +49,38 @@ export default function Footer() {
             </div>
           </div>
           <div className="w-full p-4 xl:w-2/12 sm:w-4/12">
-            <h2 className="font-bold mb-8 text-lg uppercase">Acerca</h2>
+            <h2 className="font-bold mb-8 text-lg uppercase">{t('acerca')}</h2>
             <ul>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Nosotros</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Instructores</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Voluntariado</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Vision</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">{t('nosotros')}</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">{t('instructores')}</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">{t('voluntariado')}</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">{t('vision')}</a></li>
             </ul>
           </div>
           <div className="w-full p-4 xl:w-2/12 sm:w-4/12">
-            <h2 className="font-bold mb-8 text-lg uppercase">Servicios</h2>
+            <h2 className="font-bold mb-8 text-lg uppercase">{t('servicios')}</h2>
             <ul>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Eventos</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Pasadias</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Hospedaje</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Alquilier para grupos</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Temazcales</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">{t('eventos')}</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">{t('pasadias')}</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">{t('hospedaje')}</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">{t('alquilerGrupos')}</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">{t('temazcales')}</a></li>
             </ul>
           </div>
           <div className="w-full p-4 xl:w-2/12 sm:w-4/12">
-            <h2 className="font-bold mb-8 text-lg uppercase">Otros</h2>
+            <h2 className="font-bold mb-8 text-lg uppercase">{t('otros')}</h2>
             <ul>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Galeria</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Filosofia</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Blog</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Podcast</a></li>
-              <li className="mb-4"><a href="#" className="hover:text-blue-600">Ashram Life</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">{t('galeria')}</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">{t('filosofia')}</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">{t('blog')}</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">{t('podcast')}</a></li>
+              <li className="mb-4"><a href="#" className="hover:text-blue-600">{t('ashramLife')}</a></li>
             </ul>
           </div>
         </div>
         <div className="py-4 text-center">
           <hr className="border-gray-400 mb-4" />
-          <p className="text-sm">Copyright &copy; 2025 Varsana</p>
+          <p className="text-sm">{t('copyright')}</p>
         </div>
       </div>
     </footer>

@@ -1,8 +1,13 @@
+'use client';
+
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Menu } from "lucide-react"
-import Link from "next/link"
+import { Link } from "@/i18n/routing"
+import { useTranslations } from 'next-intl'
 
 export function MobileNav() {
+  const t = useTranslations('nav');
+  
   return (
     <Sheet>
       <SheetTrigger className="md:hidden">
@@ -11,16 +16,16 @@ export function MobileNav() {
       <SheetContent side="right">
         <nav className="flex flex-col gap-4">
           <Link href="/" className="font-medium">
-            Inicio
+            {t('inicio')}
           </Link>
           <Link href="/docs" className="font-medium">
-            Documentation
+            {t('documentation')}
           </Link>
           <Link href="/nosotros" className="font-medium">
-            Nosotros
+            {t('nosotros')}
           </Link>
           <Link href="/eventos" className="font-medium">
-            Eventos
+            {t('eventos')}
           </Link>
         </nav>
       </SheetContent>

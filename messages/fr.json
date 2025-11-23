@@ -1,0 +1,69 @@
+{
+  "common": {
+    "logoAlt": "Logo de Varsana"
+  },
+  "nav": {
+    "gettingStarted": "Commencer",
+    "components": "Composants",
+    "documentation": "Documentation",
+    "nosotros": "À propos de nous",
+    "eventos": "Événements",
+    "inicio": "Accueil"
+  },
+  "hero": {
+    "subtitle": "Premier Yoga Planétaire de Colombie.",
+    "title": "Un espace pour se reconnecter avec vous-même et avec la nature.",
+    "description": "Visitez-nous en tant que {guest}, {volunteer} ou pour une {dayTrip} et découvrez Varsana, un sanctuaire pour l'âme. Plus qu'un éco-village, c'est un espace où la méditation, le yoga et la durabilité se fusionnent pour vous offrir des expériences profondes et transformatrices.",
+    "contactButton": "Contactez-nous",
+    "virtualTour": "Visite Virtuelle",
+    "bannerAlt": "Bannière de l'Éco-village Varsana"
+  },
+  "services": {
+    "title": "Visitez nos jardins écologiques",
+    "gardenAlt": "Jardins écologiques de Varsana",
+    "voluntariado": {
+      "title": "Bénévolat",
+      "description": "Idéal pour ceux qui veulent vivre la vie d'un éco-village et découvrir une culture ancestrale."
+    },
+    "pasadías": {
+      "title": "Excursions d'une journée",
+      "description": "Nous avons créé une journée spéciale pour vous, pleine de bien-être, de guérison, de relaxation, de conscience et de connexion avec la nature."
+    },
+    "hospedaje": {
+      "title": "Hébergement",
+      "description": "Nous disposons d'installations confortables, individuelles ou en groupe, idéales pour le repos."
+    },
+    "eventos": {
+      "title": "Événements",
+      "description": "Idéal pour ceux qui veulent vivre la vie d'un éco-village et découvrir une culture ancestrale."
+    }
+  },
+  "video": {
+    "title": "Êtes-vous intéressé par l'un de nos programmes?",
+    "description": "Nous sommes à votre service! Contactez-nous pour recevoir des informations plus détaillées sur tout ce que l'éco-village Varsana a à vous offrir. Nous serons heureux de répondre à toutes vos questions.",
+    "contactButton": "Contactez-nous",
+    "videoTitle": "Vidéo de l'Éco-village Varsana"
+  },
+  "footer": {
+    "description": "Duis pharetra venenatis felis, ut tincidunt ipsum consequat nec. Fusce et porttitor libero, eu aliquam nisi. Nam finibus ullamcorper semper.",
+    "acerca": "À propos",
+    "nosotros": "À propos de nous",
+    "instructores": "Instructeurs",
+    "voluntariado": "Bénévolat",
+    "vision": "Vision",
+    "servicios": "Services",
+    "eventos": "Événements",
+    "pasadias": "Excursions d'une journée",
+    "hospedaje": "Hébergement",
+    "alquilerGrupos": "Location de groupe",
+    "temazcales": "Temazcals",
+    "otros": "Autres",
+    "galeria": "Galerie",
+    "filosofia": "Philosophie",
+    "blog": "Blog",
+    "podcast": "Podcast",
+    "ashramLife": "Vie d'Ashram",
+    "copyright": "Copyright © 2025 Varsana"
+  }
+}
+

@@ -1,0 +1,69 @@
+{
+  "common": {
+    "logoAlt": "Varsana Logo"
+  },
+  "nav": {
+    "gettingStarted": "Erste Schritte",
+    "components": "Komponenten",
+    "documentation": "Dokumentation",
+    "nosotros": "Über uns",
+    "eventos": "Veranstaltungen",
+    "inicio": "Startseite"
+  },
+  "hero": {
+    "subtitle": "Kolumbiens erstes planetarisches Yoga.",
+    "title": "Ein Raum, um sich mit dir selbst und mit der Natur zu verbinden.",
+    "description": "Besuchen Sie uns als {guest}, {volunteer} oder für einen {dayTrip} und entdecken Sie Varsana, ein Heiligtum für die Seele. Mehr als ein Ökodorf, es ist ein Raum, in dem Meditation, Yoga und Nachhaltigkeit verschmelzen, um Ihnen tiefe und transformative Erfahrungen zu bieten.",
+    "contactButton": "Kontaktieren Sie uns",
+    "virtualTour": "Virtuelle Tour",
+    "bannerAlt": "Varsana Ökodorf Banner"
+  },
+  "services": {
+    "title": "Besuchen Sie unsere ökologischen Gärten",
+    "gardenAlt": "Varsana ökologische Gärten",
+    "voluntariado": {
+      "title": "Freiwilligenarbeit",
+      "description": "Ideal für diejenigen, die das Leben eines Ökodorfs erleben und eine alte Kultur kennenlernen möchten."
+    },
+    "pasadías": {
+      "title": "Tagesausflüge",
+      "description": "Wir haben einen besonderen Tag für Sie geschaffen, voller Wellness, Heilung, Entspannung, Bewusstsein und Verbindung mit der Natur."
+    },
+    "hospedaje": {
+      "title": "Unterkunft",
+      "description": "Wir haben komfortable Einrichtungen, einzeln oder in Gruppen, ideal zum Ausruhen."
+    },
+    "eventos": {
+      "title": "Veranstaltungen",
+      "description": "Ideal für diejenigen, die das Leben eines Ökodorfs erleben und eine alte Kultur kennenlernen möchten."
+    }
+  },
+  "video": {
+    "title": "Interessieren Sie sich für eines unserer Programme?",
+    "description": "Wir stehen Ihnen zur Verfügung! Kontaktieren Sie uns, um detailliertere Informationen über alles zu erhalten, was Varsana Ökodorf Ihnen zu bieten hat. Wir beantworten gerne alle Ihre Fragen.",
+    "contactButton": "Kontaktieren Sie uns",
+    "videoTitle": "Varsana Öko-Dorf Video"
+  },
+  "footer": {
+    "description": "Duis pharetra venenatis felis, ut tincidunt ipsum consequat nec. Fusce et porttitor libero, eu aliquam nisi. Nam finibus ullamcorper semper.",
+    "acerca": "Über",
+    "nosotros": "Über uns",
+    "instructores": "Ausbilder",
+    "voluntariado": "Freiwilligenarbeit",
+    "vision": "Vision",
+    "servicios": "Dienstleistungen",
+    "eventos": "Veranstaltungen",
+    "pasadias": "Tagesausflüge",
+    "hospedaje": "Unterkunft",
+    "alquilerGrupos": "Gruppenvermietung",
+    "temazcales": "Temazcals",
+    "otros": "Andere",
+    "galeria": "Galerie",
+    "filosofia": "Philosophie",
+    "blog": "Blog",
+    "podcast": "Podcast",
+    "ashramLife": "Ashram Leben",
+    "copyright": "Copyright © 2025 Varsana"
+  }
+}
+

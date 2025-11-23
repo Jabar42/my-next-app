@@ -1,37 +1,38 @@
-import Image from 'next/image';
-import Link from 'next/link';
+'use client';
 
-const services = [
-    {
-        title: "Voluntariado",
-        description: "Ideal para aquellos que quieren experimentar la vida de una Ecoaldea y conocer una cultura ancestral.",
-        link: "/voluntariado",
-    },
-    {
-        title: "Pasadías",
-        description: "Hemos creado para ti un día especial, lleno de bienestar, sanación, relajación, conciencia y conexión con la naturaleza.",
-        link: "/pasadia",
-    },
-    {
-        title: "Hospedaje",
-        description: "Contamos con instalaciones cómodas, individuales o grupales, ideales para el descanso.",
-        link: "/hospedaje",
-    },
-    {
-        title: "Eventos",
-        description: "Ideal para aquellos que quieren experimentar la vida de una Ecoaldea y conocer una cultura ancestral.",
-        link: "/eventos",
-    }
-];
+import Image from 'next/image';
+import { Link } from '@/i18n/routing';
+import { useTranslations } from 'next-intl';
 
 export default function Services() {
+    const t = useTranslations('services');
+    
+    const services = [
+        {
+            key: 'voluntariado',
+            link: "/voluntariado",
+        },
+        {
+            key: 'pasadías',
+            link: "/pasadia",
+        },
+        {
+            key: 'hospedaje',
+            link: "/hospedaje",
+        },
+        {
+            key: 'eventos',
+            link: "/eventos",
+        }
+    ];
+
     return (
         <section className="py-20 bg-white">
             <div className="container mx-auto px-4">
                 <div className="relative mb-16">
                     <Image
                         src="/devota.webp"
-                        alt="Jardines ecológicos de Varsana"
+                        alt={t('gardenAlt')}
                         width={1200}
                         height={400}
                         className="w-full h-[400px] object-cover rounded-lg"
@@ -39,7 +40,7 @@ export default function Services() {
                     />
                     <div className="absolute inset-0 bg-black/30 rounded-lg flex items-center justify-center">
                         <h2 className="text-4xl text-white font-semibold text-center">
-                            Visita nuestros jardines ecológicos
+                            {t('title')}
                         </h2>
                     </div>
                 </div>
@@ -52,10 +53,10 @@ export default function Services() {
                             className="group p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-[--color-primary]"
                         >
                             <h3 className="text-2xl font-semibold mb-4 text-[--color-primary] group-hover:text-[--color-secondary]">
-                                {service.title}
+                                {t(`${service.key}.title`)}
                             </h3>
                             <p className="text-gray-600 leading-relaxed">
-                                {service.description}
+                                {t(`${service.key}.description`)}
                             </p>
                             <div className="mt-4 text-[--color-secondary] group-hover:translate-x-2 transition-transform duration-300">
                                 →
